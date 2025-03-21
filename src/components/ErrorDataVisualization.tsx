@@ -7,75 +7,76 @@ import {
 const ErrorDataVisualization = () => {
   // Input data
   const rawData = {
-    'Initial': {
-      'Reference repoints with differing geometry(Potential errors when replacing)': null,
-      'Reference repoints with differing internal name(Potential errors when replacing)': null,
-      'Reference deletion(Potential errors when replacing)': null,
-      'Missing References(Without potential canidates)': 0,
-      'Missing References(With potential canidates)': 61655,
-      'Table generated part disconnected from factory with no potential parent': 2121,
-      'Table generated part disconnected from factory with potential parent': 21955,
-      'Duplicates(File Name)': 115372,
-      'Duplicates(Geometry)': 159269,
-      'Duplicates(Internal Name)': 395369,
-      'Duplicates(fName & ~Geometry Hash)': 13560,
-      'Duplicates(fName & ~Internal Name)': 37696,
-      'Ambigous folder ownership': null,
-      'Ambigous class': null,
-      'Scan Errors': 21266
+    "Initial": {
+      "Reference repoints with differing geometry(Potential errors when replacing)": null,
+      "Reference repoints with differing internal name(Potential errors when replacing)": null,
+      "Reference deletion(Potential errors when replacing)": null,
+      "Missing References(Without potential canidates)": 35677,
+      "Missing References(With potential canidates)": 0,
+      "Table generated part disconnected from factory with no potential parent": 2121,
+      "Table generated part disconnected from factory with potential parent": 21955,
+      "Duplicates(File Name)": 108229,
+      "Duplicates(Geometry)": 154696,
+      "Duplicates(Internal Name)": 381516,
+      "Duplicates(fName & ~Geometry Hash)": 7910,
+      "Duplicates(fName & ~Internal Name)": 32161,
+      "Ambigous folder ownership": null,
+      "Ambigous class": null,
+      "Scan Errors": 21266
     },
-    'Remove Duplicates(Keeping newest)': {
-      'Reference repoints with differing geometry(Potential errors when replacing)': null,
-      'Reference repoints with differing internal name(Potential errors when replacing)': null,
-      'Reference deletion(Potential errors when replacing)': null,
-      'Missing References(Without potential canidates)': 53696,
-      'Missing References(With potential canidates)': 28173,
-      'Table generated part disconnected from factory with no potential parent': 1528,
-      'Table generated part disconnected from factory with potential parent': 16374,
-      'Duplicates(File Name)': 0,
-      'Duplicates(Geometry)': 134983,
-      'Duplicates(Internal Name)': 365407,
-      'Duplicates(fName & ~Geometry Hash)': 0,
-      'Duplicates(fName & ~Internal Name)': 0,
-      'Ambigous folder ownership': null,
-      'Ambigous class': null,
-      'Scan Errors': 1
+    "Remove Duplicates(Keeping newest)": {
+      "Reference repoints with differing geometry(Potential errors when replacing)": null,
+      "Reference repoints with differing internal name(Potential errors when replacing)": null,
+      "Reference deletion(Potential errors when replacing)": null,
+      "Missing References(Without potential canidates)": 81869,
+      "Missing References(With potential canidates)": 0,
+      "Table generated part disconnected from factory with no potential parent": 1528,
+      "Table generated part disconnected from factory with potential parent": 16374,
+      "Duplicates(File Name)": 0,
+      "Duplicates(Geometry)": 134983,
+      "Duplicates(Internal Name)": 365407,
+      "Duplicates(fName & ~Geometry Hash)": 0,
+      "Duplicates(fName & ~Internal Name)": 0,
+      "Ambigous folder ownership": null,
+      "Ambigous class": null,
+      "Scan Errors": 1
     },
-    'Rebekah Disallow List': {
-      'Reference repoints with differing geometry(Potential errors when replacing)': null,
-      'Reference repoints with differing internal name(Potential errors when replacing)': null,
-      'Reference deletion(Potential errors when replacing)': null,
-      'Missing References(Without potential canidates)': 47944,
-      'Missing References(With potential canidates)': 18152,
-      'Table generated part disconnected from factory with no potential parent': 531,
-      'Table generated part disconnected from factory with potential parent': 10203,
-      'Duplicates(File Name)': 0,
-      'Duplicates(Geometry)': 85411,
-      'Duplicates(Internal Name)': 242765,
-      'Duplicates(fName & ~Geometry Hash)': 0,
-      'Duplicates(fName & ~Internal Name)': 0,
-      'Ambigous folder ownership': null,
-      'Ambigous class': null,
-      'Scan Errors': 1
+    "Rebekah Disallow List": {
+      "Reference repoints with differing geometry(Potential errors when replacing)": null,
+      "Reference repoints with differing internal name(Potential errors when replacing)": null,
+      "Reference deletion(Potential errors when replacing)": null,
+      "Missing References(Without potential canidates)": 66096,
+      "Missing References(With potential canidates)": 0,
+      "Table generated part disconnected from factory with no potential parent": 531,
+      "Table generated part disconnected from factory with potential parent": 10203,
+      "Duplicates(File Name)": 0,
+      "Duplicates(Geometry)": 85411,
+      "Duplicates(Internal Name)": 242765,
+      "Duplicates(fName & ~Geometry Hash)": 0,
+      "Duplicates(fName & ~Internal Name)": 0,
+      "Ambigous folder ownership": null,
+      "Ambigous class": null,
+      "Scan Errors": 1
     },
-    'Recursive Reference Recovery': {
-      'Reference repoints with differing geometry(Potential errors when replacing)': null,
-      'Reference repoints with differing internal name(Potential errors when replacing)': null,
-      'Reference deletion(Potential errors when replacing)': null,
-      'Missing References(Without potential canidates)': 0,
-      'Missing References(With potential canidates)': 20281,
-      'Table generated part disconnected from factory with no potential parent': 560,
-      'Table generated part disconnected from factory with potential parent': 10725,
-      'Duplicates(File Name)': 10242,
-      'Duplicates(Geometry)': 92240,
-      'Duplicates(Internal Name)': 247318,
-      'Duplicates(fName & ~Geometry Hash)': 3938,
-      'Duplicates(fName & ~Internal Name)': 4691,
-      'Ambigous folder ownership': null,
-      'Ambigous class': null,
-      'Scan Errors': 3003
+    "Recursive Reference Recovery": {
+      "Reference repoints with differing geometry(Potential errors when replacing)": null,
+      "Reference repoints with differing internal name(Potential errors when replacing)": null,
+      "Reference deletion(Potential errors when replacing)": null,
+      "Missing References(Without potential canidates)": 20281,
+      "Missing References(With potential canidates)": 0,
+      "Table generated part disconnected from factory with no potential parent": 560,
+      "Table generated part disconnected from factory with potential parent": 10725,
+      "Duplicates(File Name)": 10242,
+      "Duplicates(Geometry)": 92240,
+      "Duplicates(Internal Name)": 247318,
+      "Duplicates(fName & ~Geometry Hash)": 3938,
+      "Duplicates(fName & ~Internal Name)": 4691,
+      "Ambigous folder ownership": null,
+      "Ambigous class": null,
+      "Scan Errors": 3003
     }
   };
+  
 
   // Replace null with 0 for visualization
   const processedData = {};
@@ -134,7 +135,7 @@ const ErrorDataVisualization = () => {
   const [selectedStage, setSelectedStage] = useState('Initial');
 
   // Function to abbreviate long error names
-  const shortenName = (name, maxLength = 20) => {
+  const shortenName = (name, maxLength = 80) => {
     if (name.length <= maxLength) return name;
     
     const parts = name.split('(');
